@@ -1,4 +1,4 @@
-# House Prices (Ames Housing) — Model Comparison
+# House Prices — Model Comparison
 
 This project benchmarks linear and tree-based models on the Ames Housing dataset.
 
@@ -14,11 +14,12 @@ This project benchmarks linear and tree-based models on the Ames Housing dataset
 - Gradient Boosting
 - XGBoost
 
-**Best result**
-- XGBoost: CV RMSE ≈ 0.117 (stable across folds)
+### Key Result
+XGBoost achieved the lowest CV RMSE (≈ 0.117), reflecting the benefits
+of shrinkage, shallow trees, and subsampling.
 
 **Notes**
-- Dataset source: House Prices - Advanced Regression Techniques, Kaggle.
+- Dataset sourced from Kaggle, Data not included due to licensing.
 - It has 79 explanatory variables describing aspect of residential homes in Ames, Iowa.
 - https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 
